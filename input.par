@@ -1,0 +1,7 @@
+1.5	!u (Wave velocity)
+-40	!x-min
+40	!x-max
+1000	!n-max (number of grid points)
+0.125	!cfl (<=1.0)
+3	!scheme (1 = FTCS, 2 = Upwind, 3 = Lax-Freidrichs, 4 = Lax-Wendroff, 5 = MacCormack)
+0	!f-equation (0 = f0, 1 = f1)
